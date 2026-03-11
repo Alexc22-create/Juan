@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rincón del Humor</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            max-width: 1200px;
+        }
+
+        /* Tarjetas de chistes */
+        .tarjeta-chiste {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            border-top: 5px solid #4ecdc4;
+        }
+
+        .tarjeta-chiste:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .pregunta {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        .respuesta {
+            font-size: 1rem;
+            color: #555;
+            font-style: italic;
+        }
+
+        /* Colores alternativos para los bordes de las tarjetas */
+        .tarjeta-chiste:nth-child(2) { border-top-color: #ff9f43; }
+        .tarjeta-chiste:nth-child(3) { border-top-color: #5f27cd; }
+        .tarjeta-chiste:nth-child(4) { border-top-color: #ee5253; }
+        .tarjeta-chiste:nth-child(5) { border-top-color: #10ac84; }
+        .tarjeta-chiste:nth-child(6) { border-top-color: #54a0ff; }
+
+        /* Pie de página */
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            text-align: center;
+            color: #888;
+            font-size: 0.9rem;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>😂 Rincón del Humor</h1>
+        <p>Tu dosis diaria de carcajadas</p>
+    </header>
+
+    <div class="contenedor">
+        <div class="tarjeta-chiste">
+            <div class="pregunta">¿Qué le dice un pez a otro pez?</div>
+            <div class="respuesta">Nada.</div>
+        </div>
+
+        <div class="tarjeta-chiste">
+            <div class="pregunta">¿Por qué los pájaros no usan Facebook?</div>
+            <div class="respuesta">Porque ya tienen Twitter.</div>
+        </div>
+
+        <div class="tarjeta-chiste">
+            <div class="pregunta">¿Qué le dice una impresora a otra?</div>
+            <div class="respuesta">¿Esa hoja es tuya o es impresión mía?</div>
+        </div>
+
+        <div class="tarjeta-chiste">
+            <div class="pregunta">¿Cuál es el colmo de un electricista?</div>
+            <div class="respuesta">Que su esposa se llame Luz y los hijos le sigan la corriente.</div>
+        </div>
+
+        <div class="tarjeta-chiste">
+            <div class="pregunta">¿Qué hace una abeja en el gimnasio?</div>
+            <div class="respuesta">¡Zum-ba!</div>
+        </div>
+
+        <div class="tarjeta-chiste">
+            <div class="pregunta">Me acabo de escribir un libro sobre poltergeists...</div>
+            <div class="respuesta">Ojalá se venda como pan fantasma.</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Rincón del Humor. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
